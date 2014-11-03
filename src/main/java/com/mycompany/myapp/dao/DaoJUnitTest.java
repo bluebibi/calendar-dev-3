@@ -44,7 +44,7 @@ public class DaoJUnitTest {
 	public void setUp() {
 		calendarUsers = new CalendarUser[numInitialNumUsers];
 		events = new Event[numInitialNumEvents];
-		eventAttendees = new EventAttendee[numInitialNumEvents];
+		eventAttendees = new EventAttendee[numInitialNumEventAttendees];
 		
 		this.calendarUserDao.deleteAll();
 		this.eventDao.deleteAll();

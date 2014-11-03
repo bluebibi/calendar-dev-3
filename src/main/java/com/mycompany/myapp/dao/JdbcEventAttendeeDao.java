@@ -20,7 +20,7 @@ public class JdbcEventAttendeeDao implements EventAttendeeDao {
 	private RowMapper<EventAttendee> rowMapper;
 
 	@Autowired
-	private CalendarUserDao eventDao;
+	private EventDao eventDao;
 	
 	@Autowired
 	private CalendarUserDao calendarUserDao;
